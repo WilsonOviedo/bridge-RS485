@@ -1,3 +1,3 @@
 # Tested in:
--ESP WROOM - 32
--Arduino Nano
+ESP WROOM - 32
+Arduino Nano

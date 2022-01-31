@@ -16,11 +16,11 @@ void posTrans(){
 }
 void setup() {
   pinMode(DE_RE,OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(9600,SERIAL_7E1);
   while (!Serial) {
     ; 
   }
-  Serial2.begin(BAUD);
+  Serial2.begin(BAUD,SERIAL_7E1);
 }
 
 void loop() { 
